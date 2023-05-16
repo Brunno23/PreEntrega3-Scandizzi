@@ -1,0 +1,100 @@
+/* AJUSTES GENERALES */
+button a {
+    text-decoration: none;   
+    color: black; 
+}
+
+/* NAV BAR */
+.container-fluid{
+    background-color: #EE9CCA;
+}
+.navbar-collapse {
+    background-color: #EE9CCA;
+    display: flex;
+    justify-content: end;
+}
+
+/* PAGINA INICIO */
+body {
+    background-color: black;
+}
+/* PAGINA PRODUCTOS */
+/* seccion productos */
+main {
+    margin-bottom: 1em;
+}
+.accordion {
+    width: 60%;
+    margin: auto;
+    border: 5px solid #EE9CCA;
+    border-radius: 10px;
+
+}
+.accordion-body {
+    display: flex;
+    flex-direction: column;
+}
+.accordion-body .productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accordion-body .productos .variedades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: .3em 0;
+    width: 100%;
+}
+.accordion-body input {
+    width: 3em;
+    border: transparent;
+}
+.accordion-body button {
+    align-items: center;
+    margin: .7em 0;
+}
+/* boton "Añadir al carrito" */
+#btnCarr, #limpCarr, #btnPago {
+    display: block;
+    margin: .5em auto;
+    background-color: #EE9CCA;
+}
+.bi {
+    font-size: large;
+    padding-right: .5em;
+}
+#btnPago {
+    font-size: x-large;
+    padding: .2em 1em;
+}
+/* seccion carrito */
+.seccCarrito {
+    margin: 3em;
+    width: 60%;
+    margin: auto;
+    border: 5px solid #EE9CCA;
+    border-radius: 10px;
+}
+.seccCarrito h2 {
+    text-align: center;
+    margin: .5em;
+}
+.detalle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cantidad {
+    padding-left: 10%;
+}
+.precio {
+    text-align: center;
+}
+.vacio {
+    text-align: center;
+    color: #EE9CCA;
+    font-size: x-large;
+}
